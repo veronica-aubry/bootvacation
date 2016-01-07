@@ -1,0 +1,40 @@
+.container {
+  max-width: 1000px;
+  background-color: white;
+}
+
+#nav.container {
+  background-color: none;
+}
+
+#index.container {
+  background-image: url("http://www.machupicchu.org/images/t-index.jpg");
+  background-repeat: no-repeat;
+  background-position: top-left;
+  background-attachment: fixed;
+  height: 400px;
+  color: white;
+  text-shadow: #000 1px 2px 2px, #111 5px 1px 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#gallery.container h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+img {
+  padding: 8px;
+  border: 1px solid grey;
+}
+
+body {
+  padding-top: 70px;
+}
+
+@media screen and (min-width: 2000px) {
+  #index.container {
+    background-attachment: scroll;
+  }
+}

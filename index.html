@@ -2,44 +2,98 @@
 <html>
   <head>
       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+      <link href="css/my-styles.css" rel="stylesheet" type="text/css" media="all">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="container">
-      <header class="page-header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Fun Travel Times</a></li>
-        </ul>
-        <h3>Machu Pichu</h3>
-      </header>
 
-      <div class="jumbotron">
-      <h1>Machu Pichu</h1>
+<!--navbar-->
+
+    <div class="navbar navbar-light navbar-fixed-top">
+      <div id="nav" class="container">
+
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          &#9776;
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Fun Travel Times</a></li>
+          </ul>
+
+        </div>
       </div>
+    </div>
 
-      <h1>Machu Pichu</h1>
+<!--picture and text-->
+
+    <div id="index" class="container">
+      <h1>Machu Picchu</h1>
+      <p>climb a big thing</p>
+      <p>it's fun</p>
+    </div>
+
+<!--opening paragraph and pictures-->
+
+    <div id="content" class="container">
       <h3>Amazing Travel Location</h3>
       <p>A curious crowd lingered restlessly, people coming and going but the crowd remaining, both on the Chobham and Horsell bridges. One or two adventurous souls, it was afterwards found, went into the darkness and crawled quite near the Martians; but they never returned, for now and again a light-ray, like the beam of a warship's searchlight swept the common, and the Heat-Ray was ready to follow. Save for such, that big area of common was silent and desolate, and the charred bodies lay about on it all night under the stars, and all the next day. A noise of hammering from the pit was heard by many people.</p>
 
       <div class="row">
+
         <div class="col-sm-4">
-        <h2>Hike up a really tall mountain &amp; have a heart attack.</h2>
-        <p>Learn how to write the code that downloads and displays messages, photos, and videos that timeout after a few seconds. Then create the code that deletes them from the back-end to make them "self destruct."</p>
+          <h2>Hike up a really tall mountain &amp; have a heart attack.</h2>
+          <p>Learn how to write the code that downloads and displays messages, photos, and videos that timeout after a few seconds. Then create the code that deletes them from the back-end to make them "self destruct."</p>
+        </div>
+
+        <div class="col-sm-4">
+          <h2>Look at pretty stuff</h2>
+          <p>Learn what Parse.com offers as a "backend-as-a-service" platform. Explore the user account management APIs provided by Parse.com and write the code to create and save a new user in a Parse.com data store.</p>
+        </div>
+
+        <div class="col-sm-4">
+          <h2>Learn about Incan culture</h2>
+          <p>We'll teach you how to upload images, video files, and messages to Parse.com's cloud servers. Then learn how to retrieve the data by setting up custom queries that download and display them in the app.</p>
+        </div>
+
       </div>
 
-      <div class="col-sm-4">
-        <h2>Look at pretty stuff</h2>
-        <p>Learn what Parse.com offers as a "backend-as-a-service" platform. Explore the user account management APIs provided by Parse.com and write the code to create and save a new user in a Parse.com data store.</p>
-     </div>
+        <!--gallery-->
 
-      <div class="col-sm-4">
-        <h2>Learn about Incan culture</h2>
-        <p>We'll teach you how to upload images, video files, and messages to Parse.com's cloud servers. Then learn how to retrieve the data by setting up custom queries that download and display them in the app.</p>
+    <div id="gallery" class="container">
+
+      <h1> Gallery </h1>
+
+      <div class="row">
+
+        <div class="col-sm-4">
+          <img class="img-responsive" src="img/church.jpg">
+          <h3>somewhere nice</h3>
+          <p>We will build on the concepts learned in previous iOS projects to create an app that will allow users to send photo or video messages to other users that will be deleted once viewed.</p>
+        </div>
+
+        <div class="col-sm-4">
+            <img class="img-responsive" src="img/weaving.jpg">
+            <h3>somewhere nice</h3>
+            <p>We will build on the concepts learned in previous iOS projects to create an app that will allow users to send photo or video messages to other users that will be deleted once viewed.</p>
+        </div>
+
+        <div class="col-sm-4">
+            <img class="img-responsive" src="img/map.jpg">
+            <h3>somewhere nice</h3>
+            <p>We will build on the concepts learned in previous iOS projects to create an app that will allow users to send photo or video messages to other users that will be deleted once viewed.</p>
+        </div>
       </div>
     </div>
-   </div>
   </body>
 
 </html>
