@@ -81,6 +81,12 @@ body {
 
 
 @media screen and (max-width: 700px) {
+
+  .item p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   #item2 {
     background-attachment: scroll;
     background-size: cover;
